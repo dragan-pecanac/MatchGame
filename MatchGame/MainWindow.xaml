@@ -7,6 +7,35 @@
         mc:Ignorable="d"
         Title="Match all terms with given tiles correctly" Height="450" Width="400">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+
     </Grid>
 </Window>
